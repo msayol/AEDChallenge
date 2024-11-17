@@ -19,7 +19,7 @@ class Participant:
     dietary_restrictions: Literal["None", "Vegetarian", "Vegan", "Gluten-free", "Other"]
 
     # Experience and programming skills
-    programming_skills: Dict[str, int]
+    programming_skills: Dict[str, int]                                  #no ho tinc en compte, perquè hi ha d'haver varietat
     experience_level: Literal["Beginner", "Intermediate", "Advanced"]
     hackathons_done: int
 
@@ -30,7 +30,7 @@ class Participant:
     ]
     objective: str
     interest_in_challenges: List[str]
-    preferred_languages: List[str]
+    preferred_languages: List[str] #catala, castella, angles...
     friend_registration: List[uuid.UUID]
     preferred_team_size: int
     availability: Dict[str, bool]
